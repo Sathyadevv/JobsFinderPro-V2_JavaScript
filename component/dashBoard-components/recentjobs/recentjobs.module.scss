@@ -1,0 +1,345 @@
+
+.recentJobs {
+    position: absolute;
+    right: 6px;
+    top: 28rem;
+    width: 83%;
+    height: 40vh;
+    // background-color: rgb(54, 105, 114);
+    
+    .component1 {
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 18px;
+    //     height: 8vh;
+    // overflow-inline: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .recentJobPosts {
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 700;
+        color: rgba(51, 51, 51, 1);
+        margin-bottom: 8px;
+      }
+      .group1 {
+        // display: flex;
+        // flex-direction: column;
+        // overflow: scroll;
+        width: 100%;
+      }
+      .group7 {
+        width: 100%;
+        background-color: rgba(237, 244, 251, 1);
+        border-radius: 4px;
+        padding: 12px;
+        display: flex;
+        // align-items: flex-start;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 6px;
+      }
+      .jobTitle {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(12, 30, 91, 1);
+      }
+      .category {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(12, 30, 91, 1);
+        margin-left: 7%;
+      }
+      .openings {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(12, 30, 91, 1);
+      }
+      .companyName {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(12, 30, 91, 1);
+      }
+      .status {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(12, 30, 91, 1);
+      }
+      .jobs {
+        width: 100%;
+        background-color: rgba(236, 232, 232, 0.75);
+        min-height: 10vh;
+        overflow: hidden;
+        margin-bottom: 12px;
+      .job {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        min-height: 0px;
+        color: rgba(12, 30, 91, 1);
+        border: 1px #8080808c solid;
+        margin: 2px 0;
+        border-radius: 3px;
+        button {
+          padding: 0 4px;
+        }
+      }
+      }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // .group2 {
+      //   height: calc(17.63% - 31px);
+      //   background-color: rgba(210, 210, 210, 0.75);
+      //   border-radius: 1px;
+      //   padding: 15px 22.25px 16px 21.37px;
+      //   display: flex;
+      //   align-items: flex-start;
+      //   align-self: stretch;
+      //   border-bottom: 1px solid rgba(210, 210, 210, 0.75);
+      // }
+      // .uiUxDesigner {
+      //   width: 11.4%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-top: 9px;
+      //   margin-right: 138.4px;
+      // }
+      // .fullTime {
+      //   width: 6.28%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-top: 9px;
+      //   margin-right: 157.57px;
+      // }
+      // .num12 {
+      //   width: 1.35%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-top: 9px;
+      //   margin-right: 161.17px;
+      // }
+      // .num5 {
+      //   width: 8.69%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-top: 8px;
+      //   margin-right: 138.13px;
+      // }
+      // .badgeTextSuccessLight {
+      //   align-self: stretch;
+      // }
+      // .group3 {
+      //   height: calc(17.63% - 31px);
+      //   background-color: rgba(210, 210, 210, 0.75);
+      //   border-radius: 1px;
+      //   padding: 15px 22.25px 16px 21.37px;
+      //   display: flex;
+      //   align-items: center;
+      //   align-self: stretch;
+      //   border-bottom: 1px solid rgba(210, 210, 210, 0.75);
+      // }
+      // .uiUxDesignerTwo {
+      //   width: 12.75%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 124.4px;
+      // }
+      // .fullTimeTwo {
+      //   width: 6.28%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 157.57px;
+      // }
+      // .num12Two {
+      //   width: 1.84%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 128.17px;
+      // }
+      // .num5Two {
+      //   width: 14.68%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 104.13px;
+      // }
+      // .row4 {
+      //   width: 12.56%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 126.4px;
+      // }
+      // .num12Three {
+      //   width: 1.35%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 139.17px;
+      // }
+      // .num5Three {
+      //   width: 13.52%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 110.13px;
+      // }
+      // .uiUxDesignerFour {
+      //   width: 10.72%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 145.4px;
+      // }
+      // .num12Four {
+      //   width: 1.84%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 127.17px;
+      // }
+      // .num5Four {
+      //   width: 14.58%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 106.13px;
+      // }
+      // .row03Three {
+      //   height: calc(17.89% - 32px);
+      //   background-color: rgba(210, 210, 210, 0.75);
+      //   border-radius: 1px;
+      //   padding: 15px 22.25px 17px 21.37px;
+      //   display: flex;
+      //   align-items: center;
+      //   align-self: stretch;
+      // }
+      // .uiUxDesignerFive {
+      //   width: 10.04%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 152.4px;
+      // }
+      // .num12Five {
+      //   width: 1.35%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 168.17px;
+      // }
+      // .num5Five {
+      //   width: 8.02%;
+      //   height: 50%;
+      //   font-family: "Montserrat";
+      //   font-size: 14px;
+      //   font-weight: 400;
+      //   line-height: 18px;
+      //   color: rgba(102, 102, 102, 1);
+      //   margin-right: 138.13px;
+      // }

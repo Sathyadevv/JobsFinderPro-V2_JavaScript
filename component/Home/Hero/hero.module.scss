@@ -1,0 +1,45 @@
+$dark-slate-gray: #303C6C;
+$white: #fff;
+$dim-gray: #575353;
+$gray:#828282;
+$black: #16171C;
+
+
+.hero {
+    background-color: $white;
+    overflow: hidden;
+    .container {
+      max-width: 1060px;
+      margin: auto;
+    position: relative;
+    margin-top: 2.7rem;
+    padding: 10rem 0;
+    }
+  }
+  .heroHeading {
+    font-size: 54px;
+    font-weight: 700;
+    color: $black;
+    margin-bottom: 3.6rem;
+  }
+  .colorText {
+    font-size: 54px;
+    font-weight: 700;
+    color: $dark-slate-gray;
+  }
+  .heroDescription {
+    font-size: 26px;
+    font-weight: 500;
+    max-width: 40%;
+    color: $dark-slate-gray;
+    margin-top: 4.6rem;
+    margin-bottom: 1.6rem;
+  }
+  
+  .heroImage {
+    width: auto;
+    height:  620px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+  }

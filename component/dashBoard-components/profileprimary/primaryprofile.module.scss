@@ -1,0 +1,42 @@
+$dark-slate-gray: #303C6C;
+$white: #fff;
+
+
+.profile {
+    position: absolute;
+    top: 8rem;
+    width: 83%;
+    border-radius: 12px;
+    right: 7px;
+    background-color: $dark-slate-gray;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    padding: 22px;
+    color: $white;
+    overflow: hidden;
+
+    // h2 {
+    //     font-size: 2rem;
+    // }
+
+    // h3 {
+    //     margin: 10px 0;
+    //     font-size: 1.6rem;
+    // }
+    // h4 {
+    //     font-size: 1.4rem;
+    // }
+    h3 {
+        margin: 10px 0;
+    }
+    .styleImage {
+        position: absolute;
+        height: 720px;
+        width: auto;
+        right: -220px;
+        top: -180px;
+        color: #fff;
+        
+    }
+}

@@ -1,0 +1,35 @@
+$dark-slate-gray: #303C6C;
+$white: #fff;
+
+.topBar {
+    position: absolute;
+    width: 83.9%;
+    top: 4rem;
+    right: 0;
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid rgba(99, 96, 96, 0.548);
+
+    .heading {
+        margin-left: 12px;
+        padding: 10px 0;
+        font-size: 1.6rem;
+        color: $dark-slate-gray;
+    }
+    .searchContainer {
+        margin-right: 8%;
+        border-radius: 5px;
+
+        input {
+            padding: 6px;
+            outline: none;
+        }
+        button {
+            padding: 6px;
+            color: $dark-slate-gray;
+            font-weight: 500;
+        }
+    }
+}

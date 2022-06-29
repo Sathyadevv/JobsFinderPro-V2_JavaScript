@@ -1,0 +1,57 @@
+$dark-slate-gray: #303C6C;
+$white: #fff;
+
+.navbar {
+    background-color: $dark-slate-gray;
+    position: fixed;
+    width: 100vw;
+    z-index: 6;
+    // display: flex;
+    // align-items: center;
+  }
+  .container {
+    height: 100%;
+    max-width: 1060px;
+    padding: 12px 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+  }
+  .mainLOgo {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 20px;
+    color: $white;
+    letter-spacing: 0.48px;
+  }
+  .navLinks {
+    display: flex;
+    align-items: center;
+  }
+  .login {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    color: $white;
+    margin-right: 33.65px;
+  }
+  .postJobBtn {
+    background-color: $white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+  }
+  .postJobBtn:hover {
+    opacity: 0.88;
+  }
+  .postJob {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    color: $dark-slate-gray;
+    padding: 6px 10px;
+  }

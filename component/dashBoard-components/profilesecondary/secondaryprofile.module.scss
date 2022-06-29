@@ -1,0 +1,171 @@
+$dark-slate-gray: #303C6C;
+$white: #fff;
+$midnight-blue: #102048;
+
+
+.secondaryProfile {
+    position: absolute;
+    right: 6px;
+    top: 18rem;
+    width: 83%;
+
+    .component4 {
+        display: flex;
+        align-items: flex-start;
+      }
+      .card {
+        flex: 1;
+        background-color: $white;
+        margin-right: 16px;
+        border-radius: 4px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+      }
+      .gender {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: $midnight-blue;
+      }
+      .male {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $dark-slate-gray;
+        margin-bottom: 11px;
+        letter-spacing: 0.29px;
+      }
+      .dateOfBirth {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: $midnight-blue;
+        margin-bottom: 11px;
+      }
+      .num04061999 {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $dark-slate-gray;
+        align-self: stretch;
+        letter-spacing: 0.29px;
+      }
+      .cardTwo {
+        flex: 1;
+        background-color: $white;
+        margin-right: 16px;
+        border-radius: 4px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+      }
+      .jobPosts {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: $midnight-blue;
+        margin-bottom: 18px;
+      }
+      .num946758695 {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $dark-slate-gray;
+        margin-bottom: 18px;
+        margin-left: 10px;
+        letter-spacing: 0.29px;
+      }
+      .sghgCom {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $dark-slate-gray;
+        margin-left: 10px;
+        letter-spacing: 0.29px;
+      }
+      .cardThree {
+        flex: 1;
+        background-color: $white;
+        margin-right: 16px;
+        border-radius: 4px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+      }
+      .educationQualification {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: $midnight-blue;
+        margin-bottom: 4px;
+      }
+      .beMechanical74 {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $dark-slate-gray;
+        margin-bottom: 16px;
+        margin-left: 9px;
+        letter-spacing: 0.29px;
+      }
+      .experience {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: $midnight-blue;
+      }
+      .num3Years {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $dark-slate-gray;
+        margin-left: 9px;
+        letter-spacing: 0.29px;
+      }
+      .cardFour {
+        flex: 1;
+        background-color: $white;
+        border-radius: 4px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+      }
+      .technicalSkills {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        color: $midnight-blue;
+        margin-bottom: 8px;
+      }
+      .qualityAnalysisQaInspectionCadAnd {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: $dark-slate-gray;
+        margin-left: 9px;
+        letter-spacing: 0.29px;
+      }
+}
+

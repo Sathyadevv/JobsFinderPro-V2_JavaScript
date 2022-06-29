@@ -1,0 +1,112 @@
+$dark-slate-gray: #303C6C;
+$white: #fff;
+
+.footer {
+    background-color: $dark-slate-gray;
+    margin-bottom: 0;
+    z-index: 3;
+    padding: 24px 0;
+    .container {
+      max-width: 1060px;
+      margin: 12px auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      .logoBox {
+        margin-right: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .footerLogo {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 29px;
+        color: $white;
+        margin-bottom: 22.13px;
+        margin-left: 2.2px;
+        letter-spacing: 0.35px;
+      }
+      .footerDesc {
+        max-width: 80%;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 25px;
+        color: $white;
+      }
+      .flexWrapperOne {
+        display: flex;
+        justify-content: space-between;
+        gap: 5rem;
+      }
+      .addressComponent {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color: $white;
+        gap: 10px;
+
+      }
+      .addressBox{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+      // .frame7 {
+      //   display: flex;
+      //   flex-direction: column;
+      //   align-items: flex-start;
+      // }
+      // .email {
+      //   font-family: "Poppins";
+      //   font-size: 17px;
+      //   font-weight: 500;
+      //   color: $white;
+      // }
+      // .address {
+      //   max-width: 236px;
+      //   font-family: "Poppins";
+      //   font-size: 17px;
+      //   font-weight: 500;
+      //   color: $white;
+      // }
+     
+      .policyComponent {
+        display: flex;
+        flex-direction: column;
+        color: $white;
+        gap: 10px;
+
+      }
+      .policy {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 8px;
+      }
+      
+      // .aboutUs {
+      //   font-family: "Poppins";
+      //   font-size: 17px;
+      //   font-weight: 500;
+      //   color: $white;
+      // }
+      // .termsOfUse {
+      //   font-family: "Poppins";
+      //   font-size: 17px;
+      //   font-weight: 500;
+      //   color: $white;
+      // }
+    }
+    .copyrightText {
+      text-align: center;
+      font-family: "Poppins";
+      font-size: 13px;
+      margin: 10px auto;
+      margin-top: 2rem;
+      font-weight: 500;
+      color: gray;
+    }
+  }
+  
+  
+  
