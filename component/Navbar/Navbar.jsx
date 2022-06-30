@@ -31,7 +31,9 @@ const Navbar = () => {
       <div className={styles.container}>
         <p className={styles.mainLOgo}>LOGO</p>
         <div className={styles.navLinks}>
+          <Link href={"/dashboard/postjob"}>
           <p className={styles.login}>Login</p>
+          </Link>
           <Link href={"/account/signup"}>
           <p className={styles.login}>Register</p>
           </Link>

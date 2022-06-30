@@ -3,6 +3,7 @@ import styles from "./signup.module.scss";
 import Image from "next/image";
 import { useState } from "react";
 import Resizer from "react-image-file-resizer";
+import Select from "react-select";
 
 function signup() {
   const [imgData, setImgData] = useState(null);
@@ -10,7 +11,13 @@ function signup() {
   const [imgBtn, setImgBtn] = useState(true);
   const [imgName, setImgName] = useState("default.jpg");
 
-  const [userInfo, setUseInfo] = useState({
+  // const [selectedOption, setSelectedOption] = useState(null);
+  const options = [
+    { value: "Job Seeker", label: "Job Seeker" },
+    { value: "Recruiter", label: "Recruiter" },
+  ];
+
+  const [userInfo, setUserInfo] = useState({
     firstName: "",
     lastName: "",
     type: "",
@@ -63,9 +70,6 @@ function signup() {
   };
 
   const imageUpload = async () => {
-
-    
-
     const formData = new FormData();
     formData.append("profile", imgData);
     const config = {
@@ -86,13 +90,24 @@ function signup() {
   };
 
   const changeHandle = (e) => {
-    setUseInfo({ ...userInfo, [e.target.name]: e.target.value });
+    setUserInfo({ ...userInfo, [e.target.name]: e.target.value });
   };
 
+  const createData = async () => {
+    const response = await fetch("http://127.0.0.1:5300/account/signup", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(userInfo),
+    });
+    const data = await response.json();
+    console.log(data);
+  };
   return (
     <div className={styles.main}>
       <div className={styles.wrapper}>
-        <div>
+        <div className={styles.formContainer}>
           <h2>Registration</h2>
           <form action="#">
             <div className={styles.inputbox}>
@@ -100,15 +115,17 @@ function signup() {
                 type="text"
                 placeholder="Enter first name"
                 required
-                name="firstName"  
+                name="firstName"
+                onChange={changeHandle}
               />
             </div>
             <div className={styles.inputbox}>
               <input
-                type="text" 
+                type="text"
                 placeholder="Enter last name"
                 required
                 name="lastName"
+                onChange={changeHandle}
               />
             </div>
             <div className={styles.inputbox}>
@@ -117,6 +134,7 @@ function signup() {
                 placeholder="Enter your email"
                 required
                 name="email"
+                onChange={changeHandle}
               />
             </div>
             <div className={styles.inputbox}>
@@ -125,6 +143,7 @@ function signup() {
                 placeholder="Create password"
                 required
                 name="password"
+                onChange={changeHandle}
               />
             </div>
             <div className={styles.inputbox}>
@@ -135,7 +154,9 @@ function signup() {
               <h3>I accept all terms & condition</h3>
             </div>
             <div className={`${styles.inputbox} ${styles.button}`}>
-              <input type="Submit" value="Register Now" />
+              <input type="Submit" value="Register Now" onClick={(e)=>{e.preventDefault;
+                 console.log(userInfo);
+                 createData();}}/>
             </div>
             {/* <div className={styles.text}>
               <h3>
@@ -149,38 +170,46 @@ function signup() {
             {imgBtn ? (
               <Image
                 src="/assets/homeicons/jobseeker/Vector.png"
-                height="96px"
-                width="96px"
+                height="136px"
+                width="136px"
               />
             ) : (
               <Image
                 src={imgShow}
                 className="shadow"
                 alt="Logo"
-                height="96px"
-                width="96px"
+                height="136px"
+                width="136px"
               />
             )}
-
-            
           </div>
-          <div>
-              <input
-                type="file"
-                accept="image/*"
-                onChange={onImageChange}
-                id="uploadFile1"
-              />
-              <button
-                className="row dragBox btn m-2"
-                type="button"
-                onClick={imageUpload}
-              >
-                Upload
-              </button>
-            </div>
+          <div className={styles.uploadContainer}>
+            <input
+              type="file"
+              accept="image/*"
+              onChange={onImageChange}
+              required
+            />
+            <button
+              className={styles.uploadButton}
+              type="button"
+              onClick={imageUpload}
+            >
+              Upload
+            </button>
+            <h3>Select Category</h3>
+            <Select
+              onChange={(e) => {
+                userInfo.type = e.value;
+              }}
+              options={options}
+              name="type"
+              
+            />
+          </div>
         </div>
       </div>
+      
     </div>
   );
 }

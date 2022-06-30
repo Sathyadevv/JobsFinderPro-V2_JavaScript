@@ -14,13 +14,20 @@
 
   .wrapper{
     position: relative;
-    max-width: 430px;
+    max-width: 60%;
     width: 100%;
     background: #fff;
-    padding: 34px;
+    padding: 20px 32px;
     border-radius: 6px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .formContainer {
+      width: 50%;
+    }
 
     h2{
       position: relative;
@@ -72,15 +79,15 @@
       }
 
       .inputbox{
-        height: 52px;
-        margin: 18px 0;
+        height: 48px;
+        margin: 16px 0;
 
         input{
           height: 100%;
           width: 100%;
           outline: none;
           padding: 0 15px;
-          font-size: 17px;
+          font-size: 15px;
           font-weight: 400;
           color: #333;
           border: 1.5px solid #C7BEBE;
@@ -113,15 +120,47 @@
 }
 
 .profile {
+  width: 44%;
+  margin-top: 9%;
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
   gap: 2rem;
+  padding: 9px 16px;
+  border: 1px rgba(163, 158, 158, 0.658) solid;
+  border-radius: 4px;
+
+  input {
+    align-items: center;
+  }
 }
+
 .imageContainer {
-  height:96px;
-  width:96px;
+  height:136px;
+  width:136px;
   border-radius: 50%;
   overflow: hidden;
   object-fit: contain;
 }
+.uploadContainer {
+  input {
+    margin-left: 16%;
+  }
+  h3 {
+    color: #303c6c;
+    margin-bottom: 10px;
+  }
+}
 
+.uploadButton {
+  padding:10px 9px;
+  background-color: #303c6c;
+  color: #fff;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 15px;
+  margin: 6% 0;
+}
