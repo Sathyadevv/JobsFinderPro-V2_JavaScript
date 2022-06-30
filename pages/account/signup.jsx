@@ -100,12 +100,12 @@ function signup() {
                 type="text"
                 placeholder="Enter first name"
                 required
-                name="firstName"
+                name="firstName"  
               />
             </div>
             <div className={styles.inputbox}>
               <input
-                type="text"
+                type="text" 
                 placeholder="Enter last name"
                 required
                 name="lastName"
